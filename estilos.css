@@ -1,0 +1,62 @@
+h1{
+    background-color: #207580;
+}
+
+p{
+    font-size: 16px;
+    color: #404040
+}
+
+.tecnologia{
+    background-color: #14e058;
+}
+
+.ciencia{
+    background-color: #0296f8;
+}
+
+.arte{
+    background-color: #d127e0;
+}
+
+.links{
+    color: rgb(255, 2, 2);
+    font-weight: bold
+}
+
+.enlaces{
+    color: rgb(255, 105, 5);
+}
+
+h2{
+    text-transform: uppercase
+}
+
+a:hover{
+    color: #14e058;
+    font-size: 18px;
+}
+
+.enlaces:first-child{
+    border-bottom: 2px solid #000;
+}
+
+.enlaces:last-child{
+     border-top: 2px solid #000; 
+}
+
+aside ul li:nth-child(2n) a.links {
+    background-color: #9dd6e7;
+}
+
+aside ul li:nth-child(2n+1) a.links {
+    background-color: #fcf3f3;
+}
+
+h2::before{
+    content: "🔥";
+}
+
+.leer::after{
+    content: "→";
+} 
